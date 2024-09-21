@@ -1,13 +1,26 @@
 import React from "react";
 import image from "./../asset/image-2.jpeg";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const CelebrationDetails = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <section
       id="celebration-details"
       className="bg-gray-100 py-8 sm:py-16 px-4 sm:px-6"
     >
-      <div className="container mx-auto text-center flex flex-col justify-center items-center">
+      <div
+        className="container mx-auto text-center flex flex-col justify-center items-center"
+        data-aos="fade-up" 
+      >
         <div className="flex flex-col justify-center items-center space-y-4 mb-8 sm:mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
             Celebrate With Us!
@@ -24,6 +37,7 @@ const CelebrationDetails = () => {
             src={image}
             alt="Anniversary celebration"
             className="w-full md:w-[70vw] h-auto object-cover rounded-lg shadow-lg"
+            data-aos="fade-up"
           />
         </div>
       </div>

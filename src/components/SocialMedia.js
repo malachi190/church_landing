@@ -1,9 +1,18 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
 
 const SocialMedia = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <section id="social-media" className="bg-gray-100 py-16 px-6">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center" data-aos="fade-up">
         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
           Follow Us & Stay Connected
         </h2>
