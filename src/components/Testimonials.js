@@ -5,7 +5,7 @@ import AOS from "aos";
 const Testimonials = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 2000,
       once: true,
     });
   }, []);
@@ -15,15 +15,14 @@ const Testimonials = () => {
       <div className="container mx-auto text-center">
         <h2
           className="text-3xl md:text-4xl font-bold text-primary mb-6"
-          data-aos="fade-up" // Fade in animation for the heading
+          data-aos="fade-up" 
         >
           Our Church, Our Family
         </h2>
 
         <blockquote
           className="text-lg md:text-xl text-gray-600 italic mb-8 max-w-2xl mx-auto"
-          data-aos="fade-up" // Fade in for the quote
-          data-aos-delay="200" // Delay for a smooth transition
+          data-aos="fade-up" 
         >
           <p>
             "I’ve been a part of Higher Ground Assembly for 5 years, and this
