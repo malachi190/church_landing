@@ -15,7 +15,7 @@ const CelebrationDetails = () => {
   return (
     <section
       id="celebration-details"
-      className="bg-gray-100 py-8 sm:py-16 px-4 sm:px-6"
+      className="bg-gray-100 py-8 sm:py-16 px-4 sm:px-6 relative mt-10"
     >
       <div
         className="container mx-auto text-center flex flex-col justify-center items-center"

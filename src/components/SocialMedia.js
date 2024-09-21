@@ -17,20 +17,16 @@ const SocialMedia = () => {
           Follow Us & Stay Connected
         </h2>
         <div className="flex justify-center space-x-4">
-          <a href="[Facebook Link]" className="text-blue-600 hover:underline">
+          <a href="https://www.facebook.com/HigherGroundAssemblyBaltimore/?ref=bookmarks" className="text-blue-600 hover:underline">
             Facebook
           </a>
           <span>|</span>
-          <a href="[Instagram Link]" className="text-pink-600 hover:underline">
+          <a href="https://www.instagram.com/rccg_hga/" className="text-pink-600 hover:underline">
             Instagram
           </a>
           <span>|</span>
-          <a href="[YouTube Link]" className="text-red-600 hover:underline">
+          <a href="https://www.youtube.com/channel/UCnZIMNOOp8fYKGvZ20CaFwA/videos?view_as=subscriber" className="text-red-600 hover:underline">
             YouTube
-          </a>
-          <span>|</span>
-          <a href="[Twitter Link]" className="text-blue-400 hover:underline">
-            Twitter
           </a>
         </div>
       </div>
