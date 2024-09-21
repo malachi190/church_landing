@@ -33,11 +33,11 @@ const Homepage = () => {
         data-aos="fade-up" // AOS attribute for fade-up effect
         className="relative z-10 py-8 sm:py-16"
       >
-        <p className="text-primary md:text-lg text-balance text-base mb-5 md:mb-8 tracking-wide">2021 LORD BALTIMORE DRIVE . WINDSOR MILL ,MD 21244 USA</p>
-        <h1 className="text-3xl sm:text-4xl lg:text-[5.5rem] font-bold text-[#4c145a] mb-4 sm:mb-8">
+        <p className="text-[#780000] md:text-lg text-balance text-base mb-5 md:mb-8 tracking-wide">2021 LORD BALTIMORE DRIVE . WINDSOR MILL ,MD 21244 USA</p>
+        <h1 className="text-3xl sm:text-4xl lg:text-[5.5rem] font-bold text-primary mb-4 sm:mb-8">
           Higher Ground Assembly
         </h1>
-        <h3 className="text-xl sm:text-3xl text-[#4c145a] space-y-10 sm:mb-3">
+        <h3 className="text-xl sm:text-3xl text-[#780000] space-y-10 sm:mb-3">
           Celebrates 20 Years of Faith, Love, and Community!
         </h3>
         <p className="text-base sm:text-lg lg:text-xl text-black max-w-xl sm:max-w-3xl mx-auto">

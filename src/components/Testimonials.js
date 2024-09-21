@@ -28,7 +28,7 @@ const Testimonials = () => {
             "I’ve been a part of Higher Ground Assembly for 5 years, and this
             church is truly my second family..."
           </p>
-          <footer className="text-gray-500 mt-4">- John Doe</footer>
+          <footer className="text-gray-500 mt-4">- Mayowa Samuel</footer>
         </blockquote>
       </div>
     </section>

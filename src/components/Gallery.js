@@ -1,6 +1,10 @@
 import React from "react";
 import image1 from "../asset/IMG_4634.JPEG";
 import image2 from "../asset/IMG_6326.JPEG";
+import image3 from "../asset/_H7A0201.jpg";
+import image4 from "../asset/IMG_8466.jpg";
+import image5 from "../asset/img_002.JPEG";
+import image6 from "../asset/img_003.JPG";
 import { useEffect } from "react";
 import AOS from "aos";
 
@@ -41,6 +45,26 @@ const Gallery = () => {
           />
           <img
             src={image2}
+            alt="Event 2"
+            className="w-full md:w-1/3 rounded-lg shadow-lg"
+          />
+          <img
+            src={image3}
+            alt="Event 2"
+            className="w-full md:w-1/3 rounded-lg shadow-lg"
+          />
+          <img
+            src={image4}
+            alt="Event 2"
+            className="w-full md:w-1/3 rounded-lg shadow-lg"
+          />
+          <img
+            src={image5}
+            alt="Event 2"
+            className="w-full md:w-1/3 rounded-lg shadow-lg"
+          />
+          <img
+            src={image6}
             alt="Event 2"
             className="w-full md:w-1/3 rounded-lg shadow-lg"
           />
