@@ -16,17 +16,15 @@ const ChurchHistory = () => {
       <div className="container mx-auto text-center">
         <h2
           className="text-3xl md:text-4xl font-bold text-primary mb-6"
-          data-aos="fade-up" // Fade in for the title
+          data-aos="fade-up"
         >
           Our Journey Through the Years
         </h2>
 
         <div className="w-full items-center justify-center flex mt-10">
-          <div className="justify-between items-center flex space-x-20 md:flex-row flex-col">
-            <div
-              className="sm:max-w-xl"
-              data-aos="fade-right" // Fade in from the right for the image
-            >
+          {/* Use flex-col for small screens and flex-row for medium and above */}
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-20">
+            <div className="sm:max-w-xl" data-aos="fade-right">
               <img
                 src={image}
                 alt=""
@@ -34,8 +32,8 @@ const ChurchHistory = () => {
               />
             </div>
             <p
-              className="text-lg md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto md:mt-0 mt-10"
-              data-aos="fade-left" // Fade in from the left for the text
+              className="text-lg md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto"
+              data-aos="fade-left"
             >
               Since our founding in 2004, Higher Ground Assembly has been a
               pillar of faith and hope in our community. What began as a small
