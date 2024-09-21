@@ -8,7 +8,7 @@ const Footer = () => {
           Home | Events | Gallery | Testimonials | Contact Us | Prayer Requests
         </p>
         <p className="text-gray-500">
-          ©️ [Year] [Church Name] | All Rights Reserved | Powered by [Your Name]
+          ©️ 2024 Higher Ground Assembly | All Rights Reserved
         </p>
       </div>
     </footer>

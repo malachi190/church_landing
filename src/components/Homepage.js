@@ -4,15 +4,7 @@ import image from "../asset/image-2.jpeg";
 
 const Homepage = () => {
   return (
-    <section id="homepage" className="relative bg-white px-6 text-center hero">
-      {/* RGBA Overlay */}
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundColor: "rgba(0, 0, 0, 0.4)",
-        }}
-      ></div>
-
+    <section id="homepage" className="relative bg-white px-6 text-center md:h-[70vh]">
       {/* Content */}
       <div className="relative z-10 flex justify-center items-center py-4">
         <img
@@ -21,12 +13,12 @@ const Homepage = () => {
           alt="Higher Ground Assembly Logo"
         />
       </div>
-      <div className="relative z-10 py-8 sm:py-16 mt-[4rem] sm:mt-[8rem] lg:mt-[10rem]">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6">
-          Higher Ground Assembly Celebrates 20 Years of Faith, Love, and
-          Community!
+      <div className="relative z-10 py-8 sm:py-16 mt-[3rem]">
+        <h1 className="text-3xl sm:text-4xl lg:text-[5.5rem] font-bold text-[#4c145a] mb-4 sm:mb-8">
+          Higher Ground Assembly
         </h1>
-        <p className="text-base sm:text-lg lg:text-xl text-white mb-6 sm:mb-8 max-w-xl sm:max-w-2xl mx-auto">
+        <h3 className="text-xl sm:text-3xl text-[#4c145a] space-y-10 sm:mb-3">Celebrates 20 Years of Faith, Love, and Community!</h3>
+        <p className="text-base sm:text-lg lg:text-xl text-black max-w-xl sm:max-w-3xl mx-auto">
           Welcome to Higher Ground Assembly's 20th Anniversary Celebration! We
           are beyond blessed to have you join us as we reflect on 10 years of
           God’s grace, worship, and service to our community.

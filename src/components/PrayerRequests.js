@@ -4,7 +4,7 @@ const PrayerRequests = () => {
   return (
     <section id="prayer-requests" className="bg-gray-100 py-16 px-6">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
           Send Us Your Prayer Requests
         </h2>
         <p className="text-lg text-gray-600 mb-8">
